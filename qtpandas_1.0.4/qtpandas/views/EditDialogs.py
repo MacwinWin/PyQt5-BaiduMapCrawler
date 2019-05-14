@@ -14,7 +14,7 @@ from qtpandas.models.SupportedDtypes import SupportedDtypes
 
 import numpy
 from pandas import Timestamp
-from pandas.tslib import NaTType
+from pandas._libs.tslibs.nattype import NaTType
 import warnings
 
 class DefaultValueValidator(QtGui.QValidator):
